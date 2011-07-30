@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/brynary/rack-bug.git
+  revision: 2aabd010da003f285b6b461db6eadc2f3c3512ee
+  specs:
+    rack-bug (0.3.0)
+      rack (>= 1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -118,6 +125,7 @@ DEPENDENCIES
   haml
   jquery-rails
   mysql2
+  rack-bug!
   rails (= 3.1.0.rc4)
   sass-rails (~> 3.1.0.rc)
   turn

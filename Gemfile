@@ -9,7 +9,7 @@ gem 'coffee-script'
 gem 'uglifier'
 gem 'haml'
 gem 'jquery-rails'
-
+gem 'rack-bug', :git => 'https://github.com/brynary/rack-bug.git', :require => 'rack/bug'
 gem 'unicorn'
 
 group :test do
