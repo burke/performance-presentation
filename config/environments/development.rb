@@ -19,16 +19,16 @@ Twitter::Application.configure do
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
 
-  config.middleware.use "Rack::Bug",
-  :secret_key => "someverylongandveryhardtoguesspreferablyrandomstring",
-  :panel_classes => [
-    Rack::Bug::TimerPanel,
-    Rack::Bug::RequestVariablesPanel,
-    #Rack::Bug::RedisPanel,
-    #Rack::Bug::TemplatesPanel,
-    Rack::Bug::LogPanel,
-    Rack::Bug::MemoryPanel
-  ]
+ #  config.middleware.use "Rack::Bug",
+ #  :secret_key => "someverylongandveryhardtoguesspreferablyrandomstring",
+ #  :panel_classes => [
+ #    Rack::Bug::TimerPanel,
+ #    Rack::Bug::RequestVariablesPanel,
+ #    #Rack::Bug::RedisPanel,
+ #    #Rack::Bug::TemplatesPanel,
+ #    Rack::Bug::LogPanel,
+ #    Rack::Bug::MemoryPanel
+ #  ]
   
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin

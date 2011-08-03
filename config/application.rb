@@ -38,5 +38,9 @@ module Twitter
 
     # Enable the asset pipeline
     config.assets.enabled = true
+
+    config.middleware.use ::Rack::PerftoolsProfiler, :default_printer => 'gif', :bundler => true, :mode => :walltime
+
+    
   end
 end

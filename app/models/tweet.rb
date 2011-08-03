@@ -21,7 +21,7 @@ end
 class BlackBox
 
   def self.analysis_result(n)
-    sleep 0.1
+    10000.times{rand(2**100) * rand(2**100)}
     result = ["garbage", "mediocre", "kinda cool", "FREAKIN' AWESOME"][n]
     "This tweet is #{result}"
   end 

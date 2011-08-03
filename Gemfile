@@ -9,8 +9,11 @@ gem 'coffee-script'
 gem 'uglifier'
 gem 'haml'
 gem 'jquery-rails'
-gem 'rack-bug', :git => 'https://github.com/brynary/rack-bug.git', :require => 'rack/bug'
+# gem 'rack-bug', :git => 'https://github.com/filiptepper/rack-bug.git', :require => 'rack/bug'
 gem 'unicorn'
+
+gem 'rack-perftools_profiler', :require => 'rack/perftools_profiler'
+
 
 group :test do
   gem 'turn', :require => false
